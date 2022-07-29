@@ -34,6 +34,33 @@ h4 {
 }
 
 .elementos {
-    color: rgba(0, 0, 0, 0.863);
+    display: flex;
+    flex-direction: row;
+    width: auto;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    margin-top: 15px;
+    color: black;
+}
+
+.text2{
+    width: 35%;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    margin-top: 15px;
+    color: black;
+}
+
+.text1{
+    width: 35%;
+}
+
+.img2{
+    size: 100px;
+}
