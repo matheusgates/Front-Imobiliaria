@@ -39,7 +39,7 @@ h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1110;
+    width: 1260px;
     height: 1000;
 }
 
@@ -50,18 +50,17 @@ h2 {
     color: black;
 }
 
-.img{
-    width: 100%;
+
+
+img {
+    width: 1220px
 }
 
-.text2{
-    width: 350px;
-    height: 100px;
-}
 
 .img3{
     width: 100%;
 }
+
 
 h3 {
     font-family: 'Roboto', sans-serif;
@@ -71,7 +70,18 @@ h3 {
 }
 
 .text1{
-    width: 350px;
+    margin-top: 30px;
+    margin-left: 45px;
+    text-align: left;
+    width: 450px;
+    height: 100px;
+}
+
+.text2{
+    margin-top: 30px;
+    margin-left: 45px;
+    text-align: left;
+    width: 450px;
     height: 100px;
 }
 
@@ -79,34 +89,52 @@ h3 {
     width: 100%;
 }
 
+.offers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .box1{
     margin-top: 70px;
-    height: 450px;
-    width: 470px;
+    height: 500px;
+    width: 530px;
     background: #EEEEEE;
 }
 
 
 .box2{
     margin-top: 70px;
-    height: 450px;
-    width: 470px;
+    margin-left: 160px;
+    height: 500px;
+    width: 530px;
     background: #EEEEEE;
-    margin-left: 170px;
+    
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 450px;
+    width: 1210px;
 }
 
 .sales {
+    height: 40px;
     margin-left: 6.5%;
     display: flex;
     justify-content: space-between;
 }
 
-.saleoffer {
+#saleoffer {
+    margin-top: 24px;
     background-color: #DC9730;
     border-radius: 30px;
     margin-right: 10%;
-    width: 56px;
-    height: 21px;
+    width: 63px;
+    height: 28px;
     text-align: center;
     color: white;
 }
@@ -119,4 +147,200 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+.newthing {
+    height: 40px;
+    margin-left: 6.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#newoffer {
+    margin-top: 24px;
+    background-color: #009000;
+    border-radius: 30px;
+    margin-right: 10%;
+    width: 63px;
+    height: 28px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+#img4{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    opacity: 60%;  
+}
+
+#imgtext1{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 525px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#img5{
+    width: 100%;
+    margin-bottom: 30px;
+    opacity: 60%;     
+}
+
+#imgtext2{
+    position: absolute;
+    margin-top: 397px;
+    margin-left: 525px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#img6{
+    width: 100%;
+    margin-bottom: 100px;
+    opacity: 60%;    
+}
+
+#imgtext3{
+    position: absolute;
+    margin-top: 584px;
+    margin-left: 525px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.toptext{
+    height: 2px;
+    margin-top: 70px;
+    text-align: center;
+    color: orange;
+}
+
+.contactbox {
+    text-align: left;
+    margin-top: 300px;
+    position: relative;
+    height: 370px;
+    width: 1210px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+}
+
+#slogan{
+    color: white;
+    margin-left: 750px;
+}
+
+#street{
+    color: white;
+    margin-left: 750px;
+}
+
+#number{
+    color: white;
+    margin-left: 750px;
+}
+
+#email{
+    color: white;
+    margin-left: 750px;
+}
+
+#medias{
+    color: white;
+    margin-left: 750px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 750px;
+}
+
+#insta {
+    height: 45px;
+}
+
+#facebook {
+    height: 45px;
+    margin-left: 15px;
+}
+
+#whatsapp {
+    height: 45px;
+    margin-left: 15px;
+}
+
+.mapa {
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 52px;
+}
+
+.botoes {
+    position: absolute;
+    width: 1220px;
+    height: 520px;
+    margin-right: 100px;
+}
+
+#setaL {
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 220px;
+    width: 100px;
+    opacity: 100%;
+}
+
+#setaR {
+    height: 50px;
+    margin-left: 1000px;
+    margin-top: 225px;
+    width: 100px;
+}
+
+#circle1 {
+    height: 100px;
+    margin-left: 1110px;
+    margin-top: -80px;
+    width: 100px;
+    opacity: 20%;
+}
+
+#circle2 {
+    height: 100px;
+    margin-right: 1000px;
+    margin-top: -98px;
+    width: 100px;
+    opacity: 25%;
 }
