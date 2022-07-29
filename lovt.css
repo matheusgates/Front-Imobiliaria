@@ -34,9 +34,13 @@ h4 {
 }
 
 .elementos {
+    margin-left: 20%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    width: auto;
+    flex-wrap: wrap;
+    width: 1110;
+    height: 1000;
 }
 
 h2 {
@@ -46,8 +50,17 @@ h2 {
     color: black;
 }
 
+.img{
+    width: 100%;
+}
+
 .text2{
-    width: 35%;
+    width: 350px;
+    height: 100px;
+}
+
+.img3{
+    width: 100%;
 }
 
 h3 {
@@ -58,9 +71,52 @@ h3 {
 }
 
 .text1{
-    width: 35%;
+    width: 350px;
+    height: 100px;
 }
 
 .img2{
-    size: 100px;
+    width: 100%;
+}
+
+.box1{
+    margin-top: 70px;
+    height: 450px;
+    width: 470px;
+    background: #EEEEEE;
+}
+
+
+.box2{
+    margin-top: 70px;
+    height: 450px;
+    width: 470px;
+    background: #EEEEEE;
+    margin-left: 170px;
+}
+
+.sales {
+    margin-left: 6.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saleoffer {
+    background-color: #DC9730;
+    border-radius: 30px;
+    margin-right: 10%;
+    width: 56px;
+    height: 21px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
